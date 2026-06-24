@@ -10,393 +10,434 @@ export const navItems = [
 
 export const site = {
   initials: 'BC',
-  name: 'Benedict Castro',
-  productName: "Benedict Castro - Developer's Portfolio",
-  role: 'Full-stack developer and UI systems builder',
-  location: 'Philippines / Remote',
-  email: 'opportunities@benedictcastro.dev',
-  headline: 'Building practical digital products with clean interfaces and reliable systems.',
+  name: 'Benedict M. Castro, MIT',
+  productName: 'Benedict M. Castro - Developer Portfolio',
+  role: 'Software Engineer | Java Full Stack Developer | IT Instructor',
+  location: 'Basak, Lapu-Lapu City, Cebu, Philippines',
+  phone: '+63 998 493 7076',
+  email: 'benmoncast@gmail.com',
+  headline:
+    'Java full stack developer and IT educator building enterprise-ready software, database-driven systems, and future-ready developers.',
   description:
-    'A developer brand platform for case studies, implementation thinking, and production-grade frontend craft.',
+    'A professional developer brand platform for software engineering experience, Java full stack projects, cloud and DevOps growth, teaching work, and technical mentorship.',
   socials: [
-    { label: 'GitHub', href: 'https://github.com/' },
-    { label: 'LinkedIn', href: 'https://www.linkedin.com/' },
-    { label: 'Email', href: 'mailto:opportunities@benedictcastro.dev' },
+    { label: 'GitHub Portfolio', href: '#' },
+    { label: 'LinkedIn Profile', href: '#' },
+    { label: 'Email', href: 'mailto:benmoncast@gmail.com' },
   ],
   footer: {
     exploreLabel: 'Explore',
     connectLabel: 'Connect',
-    note: 'Built with React, TailwindCSS v4, Framer Motion, and a data-driven component system.',
+    note: 'Built with React, TailwindCSS v4, Framer Motion, and a data-driven portfolio system.',
   },
 }
 
 export const home = {
   hero: {
-    eyebrow: 'Personal developer brand platform',
-    title: "Benedict Castro - Developer's Portfolio",
-    signature: 'Benedict Castro',
+    eyebrow: 'Software engineer, educator, and Java full stack developer',
+    title: 'Benedict M. Castro, MIT',
+    signature: 'Benedict M. Castro',
     description:
-      'I build polished React experiences, reusable UI systems, and workflow-minded web apps that help teams move from idea to working product.',
-    primaryCta: { label: 'View projects', href: '/projects' },
-    secondaryCta: { label: 'Start a conversation', href: '/contact' },
-    availability: 'Available for internships, freelance builds, and product teams',
-    proofPoints: ['React UI systems', 'Case-study thinking', 'End-to-end delivery'],
+      'Dedicated software engineer and IT educator with enterprise application experience, backend engineering strength, database expertise, and more than a decade of teaching future developers.',
+    primaryCta: { label: 'View project experience', href: '/projects' },
+    secondaryCta: { label: 'Contact Benedict', href: '/contact' },
+    availability: 'Open to Java full stack, software engineering, cloud engineering, and DevOps opportunities',
+    proofPoints: ['Java and Spring Boot', 'Enterprise applications', 'IT education and mentoring'],
   },
   stats: [
-    { value: '12+', label: 'Product flows shipped' },
-    { value: '8', label: 'Case-study builds' },
-    { value: '4', label: 'Core stacks practiced' },
+    { value: '10+', label: 'Years in IT education' },
+    { value: '40+', label: 'Capstone students guided' },
+    { value: '2024', label: 'OCI certified foundation' },
   ],
   productPanel: {
-    consoleLabel: 'Brand console',
-    title: 'Portfolio operating system',
-    subtitle: 'Case studies, skills, proof, and contact flow in one polished surface.',
+    consoleLabel: 'Career console',
+    title: 'Software engineering profile',
+    subtitle:
+      'Enterprise Java development, REST APIs, database systems, cloud fundamentals, DevOps practices, and technical instruction.',
     rows: [
-      { label: 'Project read depth', value: 'Case study' },
-      { label: 'Interaction quality', value: 'Premium' },
-      { label: 'Hiring signal', value: 'Clear' },
+      { label: 'Primary stack', value: 'Java Spring Boot' },
+      { label: 'Database focus', value: 'MySQL and Oracle' },
+      { label: 'Career direction', value: 'Full Stack / Cloud / DevOps' },
     ],
   },
   sections: [
     {
-      eyebrow: 'Why this portfolio exists',
-      title: 'More than a gallery of screenshots.',
+      eyebrow: 'Professional profile',
+      title: 'A software engineer who also knows how to teach the craft.',
       description:
-        'The platform frames Benedict as a builder who understands problems, ships practical solutions, and sweats the interface details that make products feel trustworthy.',
+        'Benedict combines enterprise application development experience with long-running academic instruction in Java, databases, web technologies, software engineering, and full stack development.',
     },
     {
-      eyebrow: 'Featured work',
-      title: 'Case studies with problem, process, and results.',
+      eyebrow: 'Project experience',
+      title: 'Practical software work across enterprise systems, full stack builds, and mentorship.',
       description:
-        'Each project is structured to show the thinking behind the work, the technical decisions, and the outcome a stakeholder would care about.',
+        'The project section highlights backend services, REST API development, database-driven applications, and student capstone guidance using real software engineering practices.',
     },
     {
-      eyebrow: 'Trusted signals',
-      title: 'A portfolio built for scanning and depth.',
+      eyebrow: 'Professional signal',
+      title: 'A profile built around software delivery, mentoring, and continuous learning.',
       description:
-      'Recruiters can move quickly through the highlights, while technical reviewers can open full breakdowns when they need more evidence.',
+        'Recruiters and collaborators can quickly scan experience, technical skills, education, certification, and hands-on project work.',
     },
   ],
   skillsPreview: {
     eyebrow: 'Skills snapshot',
-    title: 'A stack organized around product delivery.',
+    title: 'A Java-centered full stack skill set with database, cloud, and DevOps foundations.',
     description:
-      'Skills are grouped by how they support shipping real interfaces, data flows, and maintainable systems.',
+      'Skills are grouped by engineering domain so technical reviewers can quickly understand backend depth, frontend capability, database strength, and tooling maturity.',
   },
   projectsLink: {
-    label: 'Explore all case studies',
+    label: 'Explore all project experience',
     href: '/projects',
   },
   finalCta: {
     eyebrow: 'Next step',
-    title: 'Need a developer who can make the work feel real?',
+    title: 'Looking for a Java full stack developer, instructor, or cloud-ready engineer?',
     description:
-      'Open a conversation with context, goals, and timeline. The contact flow is built for a clean handoff.',
+      'Reach out with the role, project context, timeline, and success criteria. Benedict brings engineering execution and teaching clarity to technical teams.',
     cta: { label: 'Contact Benedict', href: '/contact' },
   },
 }
 
 export const valueProps = [
   {
-    title: 'SaaS-grade visual hierarchy',
+    title: 'Enterprise Java engineering',
     description:
-      'Layouts are optimized for fast scanning, clear calls to action, and a premium sense of structure.',
+      'Professional experience maintaining and improving enterprise web service applications with Java, Spring Boot, REST APIs, Oracle Database, SQL, and Git workflows.',
   },
   {
-    title: 'Implementation-first storytelling',
+    title: 'Technical instruction and mentorship',
     description:
-      'Case studies connect product problems to technical choices, not just finished screens.',
+      'More than a decade of instruction across Java, databases, web development, networking, ReactJS, Spring Boot, and student software engineering projects.',
   },
   {
-    title: 'Reusable system architecture',
+    title: 'Cloud and DevOps growth path',
     description:
-      'Data, components, routes, and interaction states are modular so the portfolio can evolve.',
+      'Foundational exposure to AWS, Oracle Cloud Infrastructure, CI/CD concepts, Docker basics, shell scripting, deployment support, and automation practices.',
   },
 ]
 
 export const projects = [
   {
-    slug: 'profile-management-platform',
-    title: 'Profile Management Platform',
+    slug: 'enterprise-application-development',
+    title: 'Enterprise Application Development',
+    category: 'Backend',
+    summary:
+      'Maintained and enhanced enterprise web service applications using Java, Spring Boot, REST APIs, Oracle Database, SQL, Thymeleaf, and Agile workflows.',
+    problem:
+      'Enterprise systems require reliable backend services, maintainable application code, optimized database logic, and careful alignment with business and architectural requirements.',
+    solution:
+      'Developed and optimized Spring Boot REST APIs, maintained Thymeleaf UI components, improved SQL logic in Oracle SQL Developer, validated APIs with Postman, and used Git-based collaboration practices.',
+    result:
+      'Improved backend functionality, application maintainability, API reliability, and production support readiness for business-critical enterprise applications.',
+    outcome:
+      'A stronger enterprise application foundation with improved REST API behavior, SQL performance, documentation discipline, and Agile delivery support.',
+    techStack: ['Java', 'Spring Boot', 'REST APIs', 'Thymeleaf', 'Oracle Database', 'SQL', 'Git', 'Postman'],
+    liveLink: '#',
+    githubLink: '#',
+    featured: true,
+    screenshots: [
+      {
+        title: 'Enterprise service layer',
+        caption: 'Backend services structured around Spring Boot APIs, data access, validation, and maintainability.',
+      },
+      {
+        title: 'Database support workflow',
+        caption: 'SQL query optimization and Oracle Database maintenance for application reliability.',
+      },
+    ],
+    metrics: [
+      { label: 'Role', value: 'ASE' },
+      { label: 'Methodology', value: 'Agile' },
+      { label: 'Focus', value: 'REST' },
+    ],
+    process: [
+      'Maintained enterprise web service applications against business and architecture requirements.',
+      'Developed and optimized backend functionality through Spring Boot REST API work.',
+      'Supported debugging, testing, deployment, documentation, and API validation activities.',
+    ],
+  },
+  {
+    slug: 'java-full-stack-development',
+    title: 'Java Full Stack Development Projects',
     category: 'Full-stack',
     summary:
-      'A CRUD-driven profile system with a clean dashboard, reusable form states, and structured user records.',
+      'Designed and implemented database-driven full stack web applications using Java, Spring Boot, MySQL, HTML, CSS, JavaScript, Thymeleaf, and ReactJS learning paths.',
     problem:
-      'Students and administrators needed a faster way to manage personal records without digging through spreadsheets or inconsistent forms.',
+      'Full stack applications need clean architecture, RESTful integration, usable interfaces, database design, and practical version control workflows.',
     solution:
-      'Built a focused React interface backed by API-ready data patterns, validation states, and dashboard-style record management.',
+      'Applied MVC architecture, RESTful API development, frontend integration, database-backed application design, and Git/GitHub collaboration habits.',
     result:
-      'Reduced the interaction cost of common profile tasks and created a foundation that can scale into role-based workflows.',
-    outcome: 'A maintainable profile workflow with clear data entry, editing, and review paths.',
-    techStack: ['React', 'TailwindCSS', 'Spring Boot', 'MySQL', 'Axios'],
+      'Produced application workflows that connect backend APIs, frontend experiences, database models, and maintainable development practices.',
+    outcome:
+      'A practical full stack delivery profile grounded in Java, Spring Boot, SQL databases, web technologies, and expanding ReactJS expertise.',
+    techStack: ['Java', 'Spring Boot', 'MySQL', 'HTML5', 'CSS3', 'JavaScript', 'ReactJS', 'GitHub'],
     liveLink: '#',
     githubLink: '#',
     featured: true,
     screenshots: [
       {
-        title: 'Admin overview',
-        caption: 'A dense but readable dashboard for scanning records and actions.',
+        title: 'Full stack architecture',
+        caption: 'Application flow from frontend screens to REST APIs and database-backed records.',
       },
       {
-        title: 'Profile editor',
-        caption: 'Validation-aware forms with a predictable save flow.',
+        title: 'Frontend integration',
+        caption: 'JavaScript, Thymeleaf, Bootstrap, and ReactJS growth applied to real application interfaces.',
       },
     ],
     metrics: [
-      { label: 'Primary flows', value: '5' },
-      { label: 'Reusable fields', value: '18' },
-      { label: 'Data model', value: 'CRUD' },
+      { label: 'Pattern', value: 'MVC' },
+      { label: 'Backend', value: 'Java' },
+      { label: 'Database', value: 'SQL' },
     ],
     process: [
-      'Mapped profile fields and administrative actions.',
-      'Designed reusable form states for create, edit, error, and success.',
-      'Structured the interface around scanning, editing, and confirming changes.',
+      'Modeled data and application workflows around real user and business needs.',
+      'Implemented RESTful APIs and database logic for frontend integration.',
+      'Used Git and GitHub workflows for version control, review, and collaboration.',
     ],
   },
   {
-    slug: 'campus-event-hub',
-    title: 'Campus Event Hub',
-    category: 'Frontend',
+    slug: 'academic-capstone-mentorship',
+    title: 'Academic Capstone Project Mentorship',
+    category: 'Mentorship',
     summary:
-      'A responsive event discovery interface for browsing schedules, featured programs, and registration details.',
+      'Guided student software engineering projects involving database design, application architecture, system integration, cloud deployment, testing, and documentation.',
     problem:
-      'Campus announcements were scattered across channels, making it hard for students to find relevant events quickly.',
+      'Student teams often need structure around scoping, architecture, coding standards, database design, testing, deployment, and technical documentation.',
     solution:
-      'Created a mobile-first event hub with category filters, event cards, highlight sections, and clear registration paths.',
+      'Mentored students through project planning, software engineering best practices, object-oriented programming, application architecture, and database-driven development.',
     result:
-      'Improved discoverability by making events scannable, filterable, and easy to act on from any viewport.',
-    outcome: 'A single front door for campus activities with clear hierarchy and interaction states.',
-    techStack: ['React', 'TailwindCSS', 'Framer Motion', 'React Router'],
+      'Helped approximately 40 students develop stronger software engineering competence through practical and project-based learning.',
+    outcome:
+      'A mentorship track that connects academic learning with industry-relevant development practices and project delivery habits.',
+    techStack: ['Java', 'MySQL', 'Cloud Platforms', 'Software Engineering', 'Documentation', 'Testing'],
     liveLink: '#',
     githubLink: '#',
     featured: true,
     screenshots: [
       {
-        title: 'Event discovery',
-        caption: 'Filterable cards designed for fast mobile scanning.',
+        title: 'Project guidance model',
+        caption: 'Structured student mentorship from requirements and architecture through implementation and testing.',
       },
       {
-        title: 'Program detail',
-        caption: 'A structured view for schedule, venue, and call to action.',
+        title: 'Capstone delivery support',
+        caption: 'Practical support for database design, deployment, documentation, and software engineering standards.',
       },
     ],
     metrics: [
-      { label: 'Categories', value: '6' },
-      { label: 'Breakpoints', value: '3' },
-      { label: 'Motion states', value: '12' },
+      { label: 'Students', value: '40+' },
+      { label: 'Focus', value: 'Capstone' },
+      { label: 'Model', value: 'Mentor' },
     ],
     process: [
-      'Grouped events by student intent and urgency.',
-      'Created card and detail patterns that work across mobile and desktop.',
-      'Added subtle transitions to make browsing feel responsive without slowing users down.',
+      'Guided students through database design, application architecture, and implementation planning.',
+      'Reviewed project documentation, coding practices, system integration, and testing approaches.',
+      'Reinforced professional habits in software engineering, communication, and technical problem solving.',
     ],
   },
   {
-    slug: 'inventory-intelligence-dashboard',
-    title: 'Inventory Intelligence Dashboard',
-    category: 'Dashboard',
+    slug: 'cloud-and-devops-learning',
+    title: 'Cloud and DevOps Learning Track',
+    category: 'Cloud',
     summary:
-      'A SaaS-style dashboard concept for tracking inventory health, alerts, and operational decisions.',
+      'A continuous learning track across AWS, Oracle Cloud Infrastructure, CI/CD concepts, Docker basics, Linux shell scripting, deployment support, and automation practices.',
     problem:
-      'Operational teams need a way to see stock risk, movement, and priority items without manually reviewing raw tables.',
+      'Modern Java and full stack engineers need cloud literacy, deployment awareness, automation habits, and infrastructure fundamentals alongside application development.',
     solution:
-      'Designed a dashboard with status cards, trend sections, searchable tables, and focused empty states.',
+      'Completed cloud and DevOps-focused training while applying deployment support, environment setup, API testing, scripting, and CI/CD fundamentals in software workflows.',
     result:
-      'Turned fragmented inventory signals into an organized command center for repeated daily use.',
-    outcome: 'A calm, work-focused interface for monitoring inventory and acting on exceptions.',
-    techStack: ['React', 'TailwindCSS', 'Charts', 'Data Modeling'],
-    liveLink: '#',
-    githubLink: '#',
-    featured: true,
-    screenshots: [
-      {
-        title: 'Inventory health',
-        caption: 'Status summaries and alerts designed for daily operations.',
-      },
-      {
-        title: 'Stock table',
-        caption: 'Dense table interactions with clear risk labels.',
-      },
-    ],
-    metrics: [
-      { label: 'Tracked states', value: '9' },
-      { label: 'Dashboard zones', value: '4' },
-      { label: 'Table actions', value: '7' },
-    ],
-    process: [
-      'Defined inventory states by priority and user action.',
-      'Built reusable status, metric, and table patterns.',
-      'Balanced density with spacing so operational users can scan repeatedly.',
-    ],
-  },
-  {
-    slug: 'portfolio-brand-system',
-    title: 'Developer Portfolio Brand System',
-    category: 'UI System',
-    summary:
-      'A component-driven portfolio system with routes, case studies, theme persistence, and reusable content modules.',
-    problem:
-      'Generic developer templates often bury the actual value proposition under repetitive sections and weak hierarchy.',
-    solution:
-      'Built a SaaS-inspired portfolio structure that treats personal branding as a product experience.',
-    result:
-      'Created a scalable portfolio foundation that can be updated through structured data instead of scattered markup.',
-    outcome: 'A production-minded portfolio architecture that supports growth, clarity, and polish.',
-    techStack: ['React', 'React Router', 'TailwindCSS v4', 'Framer Motion'],
+      'Strengthened readiness for cloud engineering, DevOps engineering, and modern application delivery responsibilities.',
+    outcome:
+      'A career path intentionally expanding from Java full stack development into cloud-ready and DevOps-aware engineering.',
+    techStack: ['AWS Cloud', 'Oracle Cloud Infrastructure', 'CI/CD', 'Docker', 'Bash', 'Linux', 'Postman'],
     liveLink: '#',
     githubLink: '#',
     featured: false,
     screenshots: [
       {
-        title: 'Brand landing',
-        caption: 'A premium first impression with strong identity and conversion paths.',
+        title: 'Cloud foundations',
+        caption: 'AWS, Oracle Cloud Infrastructure, and Azure fundamentals used to build broader platform awareness.',
       },
       {
-        title: 'Case study route',
-        caption: 'Reusable storytelling structure for every project.',
+        title: 'DevOps practices',
+        caption: 'CI/CD concepts, shell scripting, Docker basics, and deployment support as part of modern delivery.',
       },
     ],
     metrics: [
-      { label: 'Routes', value: '8' },
-      { label: 'Data files', value: '1' },
-      { label: 'Reusable components', value: '14+' },
+      { label: 'Cloud', value: 'OCI' },
+      { label: 'DevOps', value: 'CI/CD' },
+      { label: 'Path', value: 'Growth' },
     ],
     process: [
-      'Defined content objects for projects, skills, testimonials, and timelines.',
-      'Created a reusable design system for cards, sections, badges, and buttons.',
-      'Added route transitions, scroll reveals, and persistent dark mode.',
+      'Built cloud literacy through Oracle Cloud, AWS, and Azure fundamentals training.',
+      'Practiced DevOps-aligned workflows through deployment support, automation concepts, and scripting.',
+      'Connected cloud and DevOps learning to full stack software engineering responsibilities.',
     ],
   },
 ]
 
 export const skillCategories = [
   {
-    title: 'Frontend',
-    description: 'Interfaces built for polish, accessibility, and reusable systems.',
-    skills: ['React', 'React Router', 'TailwindCSS', 'Framer Motion', 'Responsive UI', 'Accessibility'],
+    title: 'Programming languages',
+    description: 'Core languages used for backend engineering, web development, and database work.',
+    skills: ['Java', 'JavaScript', 'SQL', 'HTML5', 'CSS3'],
   },
   {
-    title: 'Backend',
-    description: 'API-minded development with reliable data flows and clear contracts.',
-    skills: ['Spring Boot', 'REST APIs', 'MySQL', 'Authentication flows', 'Validation', 'CRUD systems'],
+    title: 'Backend development',
+    description: 'Enterprise Java backend skills for building APIs, services, and database-backed applications.',
+    skills: ['Spring Boot', 'Spring MVC', 'RESTful APIs', 'Thymeleaf', 'Maven', 'Gradle'],
   },
   {
-    title: 'Tools and workflow',
-    description: 'Practical engineering habits that keep projects maintainable.',
-    skills: ['Git', 'Vite', 'ESLint', 'Postman', 'Data modeling', 'Component architecture'],
+    title: 'Frontend development',
+    description: 'Web interface skills across traditional server-rendered views and expanding ReactJS expertise.',
+    skills: ['HTML5', 'CSS3', 'JavaScript', 'Bootstrap', 'Thymeleaf', 'ReactJS'],
+  },
+  {
+    title: 'Database technologies',
+    description: 'Database design, SQL work, query optimization, and administration fundamentals.',
+    skills: ['MySQL', 'Oracle Database', 'Oracle SQL Developer', 'IBM DB2 Express', 'Data Modeling'],
+  },
+  {
+    title: 'Cloud and DevOps',
+    description: 'Foundational cloud and delivery tooling for modern application support and deployment workflows.',
+    skills: ['AWS Cloud', 'Oracle Cloud Infrastructure', 'CI/CD Pipelines', 'Docker Basic', 'Bash', 'Cygwin'],
+  },
+  {
+    title: 'Software practices',
+    description: 'Professional engineering practices used across development, instruction, and application support.',
+    skills: ['Agile Scrum', 'SDLC', 'API Testing', 'Code Review', 'Technical Documentation', 'Application Support'],
   },
 ]
 
 export const experience = [
   {
-    role: 'Frontend Developer',
-    company: 'Independent project work',
-    period: '2025 - Present',
-    location: 'Remote',
+    role: 'IT Instructor',
+    company: 'University of Cebu Lapu-Lapu and Mandaue',
+    period: 'August 2025 - Present',
+    location: 'Cebu, Philippines',
     description:
-      'Designing and implementing responsive React applications with a strong focus on reusable UI systems and product clarity.',
+      'Delivering instruction in Java, Spring Boot, REST APIs, ReactJS, MySQL, Oracle Database, and modern software engineering practices.',
     bullets: [
-      'Built component-driven interfaces for portfolio, dashboard, and CRUD workflows.',
-      'Translated product goals into route structures, data models, and interaction states.',
-      'Improved perceived quality through motion, spacing, responsive behavior, and accessibility.',
+      'Handle Database 1 and 2, IT Elective with Java Spring Boot, and ReactJS subjects.',
+      'Develop curriculum materials, laboratory exercises, coding challenges, and hands-on full stack projects.',
+      'Mentor students in object-oriented programming, application architecture, database design, coding standards, and enterprise application design.',
     ],
-    tags: ['React', 'TailwindCSS', 'Framer Motion'],
+    tags: ['Java', 'Spring Boot', 'ReactJS', 'MySQL', 'Oracle Database'],
   },
   {
-    role: 'Full-stack Developer',
-    company: 'Academic and capstone builds',
-    period: '2024 - Present',
+    role: 'Associate Software Engineer',
+    company: 'Accenture Philippines',
+    period: 'September 2024 - March 2025',
     location: 'Philippines',
     description:
-      'Creating practical web systems that combine frontend interfaces with backend-ready data structures and API workflows.',
+      'Maintained enterprise web service applications and supported backend, UI, database, Agile, testing, and deployment activities.',
     bullets: [
-      'Implemented CRUD flows for user and profile management scenarios.',
-      'Connected UI states to data requirements, validation rules, and user feedback.',
-      'Documented projects through case-study style breakdowns for technical review.',
+      'Developed and optimized Spring Boot REST APIs to improve backend functionality and system performance.',
+      'Maintained UI components with Thymeleaf, HTML, CSS, and JavaScript.',
+      'Optimized SQL queries, used Oracle SQL Developer, validated APIs with Postman, and collaborated through Git-based Agile workflows.',
     ],
-    tags: ['Spring Boot', 'MySQL', 'REST APIs'],
+    tags: ['Java', 'Spring Boot', 'REST APIs', 'Oracle Database', 'Agile'],
   },
   {
-    role: 'UI Systems Builder',
-    company: 'Personal developer brand',
-    period: '2023 - Present',
-    location: 'Hybrid',
+    role: 'ICT and IT Faculty',
+    company: 'University of San Jose-Recoletos',
+    period: 'February 2018 - August 2024',
+    location: 'Cebu, Philippines',
     description:
-      'Developing a personal design language that makes developer work easier to evaluate and remember.',
+      'Delivered industry-aligned instruction in Java OOP, database systems, MySQL, web development, cloud fundamentals, scripting, and software engineering.',
     bullets: [
-      'Created visual systems for cards, badges, navigation, sections, forms, and timelines.',
-      'Focused on clean hierarchy, scannability, and conversion paths for hiring audiences.',
-      'Built interfaces that feel modern without sacrificing speed or usability.',
+      'Prepared students for software engineering careers through practical and project-based learning.',
+      'Guided approximately 40 students in capstone projects involving development, integration, cloud deployment, and documentation.',
+      'Introduced server-side architecture, scalability, performance, reliability, networking, operating systems, PowerShell, and Cygwin.',
     ],
-    tags: ['Design systems', 'UX writing', 'Portfolio strategy'],
+    tags: ['Java', 'MySQL', 'Web Development', 'Cloud Fundamentals'],
+  },
+  {
+    role: 'Cisco Instructor and IT Faculty',
+    company: 'AMA Computer College - Cebu Campus',
+    period: 'May 2014 - September 2017',
+    location: 'Cebu, Philippines',
+    description:
+      'Developed and delivered courses in Java programming, MySQL database management, web development, and Cisco networking.',
+    bullets: [
+      'Facilitated hands-on software development and networking laboratory sessions.',
+      'Delivered Cisco Networking instruction aligned with CCNA standards.',
+      'Covered IP addressing, routing and switching, network troubleshooting, and Cisco Packet Tracer simulations.',
+    ],
+    tags: ['Java', 'MySQL', 'Cisco Networking', 'Packet Tracer'],
   },
 ]
 
 export const education = [
   {
-    institution: 'University technology program',
-    program: 'Information Technology',
-    period: '2022 - Present',
-    location: 'Philippines',
+    institution: 'Cebu Institute of Technology - University',
+    program: 'Master in Information Technology (MIT)',
+    period: 'Graduated: June 2023',
+    location: 'Cebu, Philippines',
     description:
-      'Coursework and project work focused on software development, databases, web systems, and practical problem solving.',
-    highlights: ['Web application development', 'Database design', 'System analysis', 'Software engineering'],
+      'Graduate-level preparation in information technology, software engineering practices, systems thinking, and applied computing.',
+    highlights: ['Software Engineering', 'Information Technology', 'Systems Thinking', 'Applied Computing'],
   },
   {
-    institution: 'Self-directed engineering practice',
-    program: 'Frontend systems and product UI',
-    period: 'Ongoing',
-    location: 'Remote',
+    institution: 'University of Cebu Lapu-Lapu and Mandaue',
+    program: 'Bachelor of Science in Information Technology (BSIT)',
+    period: 'Graduated: March 2011',
+    location: 'Cebu, Philippines',
     description:
-      'Continuous practice through portfolio builds, interface experiments, and production-style React architecture.',
-    highlights: ['Component architecture', 'Responsive design', 'Motion systems', 'Accessibility fundamentals'],
+      'Undergraduate foundation in software development, databases, networking, web technologies, and information systems.',
+    highlights: ['Software Development', 'Database Systems', 'Web Technologies', 'Networking'],
   },
 ]
 
 export const certifications = [
-  'Responsive web design practice',
-  'React application architecture',
-  'REST API integration fundamentals',
-  'Database-backed application workflows',
+  'Oracle Cloud Infrastructure 2024 Certified Foundations Associate',
+  'Master Spring Boot 3 and Spring Framework 6 with Java',
+  'Database Fundamentals: Database Administration Basics',
+  'Java Certified Foundations Associate: Development Environment',
+  'Java Certified Foundations Associate: Java Concepts and Features',
+  'Linux: Introduction to Shell Scripting for DevOps',
+  'AWS Cloud Practitioner Essentials',
+  'Microsoft Azure Fundamentals (AZ-900)',
 ]
 
 export const testimonials = [
   {
-    name: 'Project collaborator',
-    role: 'Student founder',
+    name: 'Software engineering',
+    role: 'Core competency',
     message:
-      'Benedict turns rough product ideas into interfaces that feel organized, polished, and much easier to explain.',
-    highlight: 'Clear product thinking',
-    rating: '5.0',
+      'Strong foundation in object-oriented programming, software design principles, REST API development, backend development, application maintenance, and system integration.',
+    highlight: 'Engineering depth',
+    rating: 'Core',
   },
   {
-    name: 'Technical reviewer',
-    role: 'Instructor',
+    name: 'Technical education',
+    role: 'Professional strength',
     message:
-      'The strongest part of his work is how he connects the user flow to the implementation details instead of treating them separately.',
-    highlight: 'Implementation clarity',
-    rating: '4.9',
+      'Experienced in curriculum development, project-based instruction, mentoring, coaching, communication, and guiding students toward industry-relevant software practices.',
+    highlight: 'Mentorship',
+    rating: '10+ yrs',
   },
   {
-    name: 'Team partner',
-    role: 'Capstone teammate',
+    name: 'Cloud and DevOps',
+    role: 'Growth track',
     message:
-      'He cares about the small interface states that usually get missed, especially forms, empty states, and mobile behavior.',
-    highlight: 'Reliable UI craft',
-    rating: '5.0',
+      'Continuously expanding expertise in AWS, Oracle Cloud Infrastructure, CI/CD concepts, Docker fundamentals, Bash scripting, and deployment-oriented workflows.',
+    highlight: 'Cloud-ready',
+    rating: 'OCI',
   },
 ]
 
 export const contact = {
   eyebrow: 'Contact',
-  title: 'Have a product idea, internship role, or build request?',
+  title: 'Discuss a Java full stack, software engineering, teaching, cloud, or DevOps opportunity.',
   description:
-    'Send the context, timeline, and what success looks like. The form includes validation, loading, success, and error states.',
-  responseTime: 'Typical response window: 24-48 hours',
+    'Send the role context, project goals, timeline, and what success looks like. The form includes validation, loading, success, and error states.',
+  responseTime: 'Available for professional opportunities and technical collaboration',
   options: [
     { label: 'Email', value: site.email, href: `mailto:${site.email}` },
+    { label: 'Phone', value: site.phone, href: 'tel:+639984937076' },
     { label: 'Location', value: site.location, href: '#' },
-    { label: 'Focus', value: 'React products, dashboards, and portfolio systems', href: '#' },
+    { label: 'Focus', value: 'Java full stack, software engineering, cloud, DevOps, and IT instruction', href: '#' },
   ],
   form: {
     fields: {
@@ -412,7 +453,7 @@ export const contact = {
       },
       message: {
         label: 'Message',
-        placeholder: 'Tell me about the opportunity, timeline, and what you want to build.',
+        placeholder: 'Tell me about the role, project, timeline, or collaboration.',
         error: 'Share at least 20 characters of context.',
       },
     },
@@ -427,12 +468,12 @@ export const uiLabels = {
   caseStudy: 'Case study',
   filter: 'Filter',
   screenshot: 'Screenshot',
-  learningSignal: 'Learning signal',
+  learningSignal: 'Professional training',
   livePreview: 'Live preview',
   github: 'GitHub',
   backHome: 'Back home',
   backToProjects: 'Back to projects',
-  discussSimilarBuild: 'Discuss a similar build',
+  discussSimilarBuild: 'Discuss a related opportunity',
   skipToContent: 'Skip to content',
   loadingPortfolio: 'Loading portfolio system',
   brandLogoAlt: 'Developer workspace illustration for Benedict Castro portfolio',
@@ -446,24 +487,24 @@ export const uiLabels = {
 export const pageContent = {
   about: {
     eyebrow: 'About',
-    title: 'A developer brand built around clarity, craft, and useful systems.',
+    title: 'A software engineer and IT educator with enterprise, database, and full stack experience.',
     description:
-      'Benedict Castro builds interfaces that make product value easier to understand, evaluate, and trust.',
+      'Benedict M. Castro, MIT brings together industry software engineering experience and more than a decade of higher education instruction.',
     narrative:
-      'This portfolio is intentionally structured like a modern SaaS surface: clear navigation, crisp sections, strong proof points, and detailed case study routes. It is designed for people who need to evaluate both visual craft and implementation judgment.',
+      'His background spans Java, Spring Boot, RESTful APIs, MySQL, Oracle Database, Thymeleaf, JavaScript, HTML, CSS, Agile methodologies, cloud fundamentals, DevOps concepts, and technical instruction. He is passionate about building scalable software solutions, mentoring future developers, and continuously expanding into full stack development, cloud computing, and modern software engineering practices.',
   },
   skills: {
-    eyebrow: 'Skills',
-    title: 'Capabilities grouped by how modern products are actually built.',
+    eyebrow: 'Technical skills',
+    title: 'A practical Java full stack toolkit with database, cloud, DevOps, and teaching depth.',
     description:
-      'The skill system is intentionally categorized so technical reviewers can scan strengths without digging through a long undifferentiated tag list.',
+      "The skills section reflects Benedict's professional stack across programming languages, backend development, frontend development, databases, cloud technologies, tools, and software engineering practices.",
   },
   projects: {
-    eyebrow: 'Projects',
-    title: 'Case studies that show the product problem, technical path, and result.',
+    eyebrow: 'Project experience',
+    title: 'Case studies across enterprise applications, full stack development, mentorship, and cloud learning.',
     description:
-      'Browse by project type, then open any case study for a deeper breakdown of the problem, solution, tech stack, process, and outcome.',
-    emptyTitle: 'No projects in this category',
+      'These project records translate resume experience into portfolio-ready case studies covering problems, solutions, results, technologies, and delivery process.',
+    emptyTitle: 'No project experience in this category',
     emptyDescription: 'Choose another filter to view available case studies.',
   },
   projectDetails: {
@@ -478,34 +519,34 @@ export const pageContent = {
       { label: 'Result', key: 'result' },
     ],
     screenshots: {
-      eyebrow: 'Screenshots',
-      title: 'Placeholder product views.',
+      eyebrow: 'Project views',
+      title: 'Portfolio-ready project placeholders.',
       description:
-        'Each case study supports screenshot records in the project data structure, ready to swap for production images.',
+        'Each project experience supports structured screenshot records, ready to replace with real application images or diagrams.',
     },
     stack: {
       eyebrow: 'Stack and process',
-      title: 'The technical path behind the interface.',
-      techTitle: 'Tech stack',
+      title: 'The technical path behind the work.',
+      techTitle: 'Technologies used',
       processTitle: 'Process timeline',
     },
     outcomeEyebrow: 'Outcome',
   },
   experience: {
-    eyebrow: 'Experience',
-    title: 'A practical timeline of product-minded frontend and full-stack work.',
+    eyebrow: 'Professional experience',
+    title: 'A career spanning enterprise software engineering and higher education instruction.',
     description:
-      'The experience timeline focuses on responsibilities, shipped patterns, and the engineering habits behind each project.',
+      'The timeline highlights software engineering, Java full stack development, database instruction, capstone mentorship, and Cisco/networking education.',
   },
   education: {
     eyebrow: 'Education',
-    title: 'Academic foundation plus continuous product engineering practice.',
+    title: 'Graduate and undergraduate preparation in information technology.',
     description:
-      'Education is presented as a timeline, with certifications and learning tracks grouped as proof of ongoing development.',
+      'Education includes a Master in Information Technology from Cebu Institute of Technology - University and a BSIT from University of Cebu Lapu-Lapu and Mandaue.',
   },
   certifications: {
-    eyebrow: 'Certifications',
-    title: 'Focused learning tracks.',
+    eyebrow: 'Certifications and training',
+    title: 'Cloud, Java, Spring Boot, database, Linux, AWS, and Azure learning tracks.',
   },
   notFound: {
     eyebrow: '404',
