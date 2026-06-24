@@ -64,11 +64,25 @@ export default function ProjectDetailsPage() {
           {project.screenshots.map((screenshot, index) => (
             <Reveal delay={index * 0.06} key={screenshot.title}>
               <Card className="overflow-hidden">
-                <div className="project-visual min-h-64 p-6">
-                  <Badge>{uiLabels.screenshot} {index + 1}</Badge>
-                  <h3 className="mt-20 text-3xl font-black text-[var(--text)]">{screenshot.title}</h3>
-                </div>
+                {screenshot.image ? (
+                  <div className="relative border-b border-[var(--line)] bg-[var(--surface-muted)]">
+                    <img
+                      alt={screenshot.alt ?? `${project.title} screenshot ${index + 1}`}
+                      className="h-72 w-full object-cover sm:h-80 lg:h-96"
+                      src={screenshot.image}
+                    />
+                    <div className="absolute left-5 top-5">
+                      <Badge>{uiLabels.screenshot} {index + 1}</Badge>
+                    </div>
+                  </div>
+                ) : (
+                  <div className="project-visual min-h-64 p-6">
+                    <Badge>{uiLabels.screenshot} {index + 1}</Badge>
+                    <h3 className="mt-20 text-3xl font-black text-[var(--text)]">{screenshot.title}</h3>
+                  </div>
+                )}
                 <div className="p-5">
+                  <h3 className="mb-2 text-xl font-bold text-[var(--text)]">{screenshot.title}</h3>
                   <p className="leading-7 text-[var(--muted)]">{screenshot.caption}</p>
                 </div>
               </Card>

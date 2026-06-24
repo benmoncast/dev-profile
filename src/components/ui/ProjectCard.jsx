@@ -45,14 +45,26 @@ export function ProjectCard({ project }) {
   return (
     <Card interactive as="article" className="group flex h-full flex-col overflow-hidden">
       <Link className="block focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]" to={`/projects/${project.slug}`}>
-        <div className="project-visual flex min-h-48 flex-col justify-between border-b border-[var(--line)] p-5">
-          <div className="flex items-center justify-between gap-3">
-            <Badge variant="accent">{project.category}</Badge>
-            <ArrowUpRight className="h-5 w-5 text-[var(--muted)] transition group-hover:translate-x-1 group-hover:-translate-y-1 group-hover:text-[var(--accent-text)]" aria-hidden="true" />
-          </div>
-          <div>
-            <p className="text-xs font-bold uppercase text-[var(--muted)]">{uiLabels.caseStudy}</p>
-            <h3 className="mt-2 text-2xl font-bold text-[var(--text)]">{project.title}</h3>
+        <div className="relative min-h-56 overflow-hidden border-b border-[var(--line)]">
+          {project.coverImage ? (
+            <img
+              alt={`${project.title} screenshot`}
+              className="absolute inset-0 h-full w-full object-cover transition duration-300 group-hover:scale-[1.03]"
+              src={project.coverImage}
+            />
+          ) : (
+            <div className="project-visual absolute inset-0" aria-hidden="true" />
+          )}
+          <div className="absolute inset-0 bg-gradient-to-t from-[rgba(8,9,11,0.82)] via-[rgba(8,9,11,0.36)] to-[rgba(8,9,11,0.12)]" aria-hidden="true" />
+          <div className="relative flex min-h-56 flex-col justify-between p-5">
+            <div className="flex items-center justify-between gap-3">
+              <Badge variant="accent">{project.category}</Badge>
+              <ArrowUpRight className="h-5 w-5 text-white/78 transition group-hover:translate-x-1 group-hover:-translate-y-1 group-hover:text-white" aria-hidden="true" />
+            </div>
+            <div>
+              <p className="text-xs font-bold uppercase text-white/75">{uiLabels.caseStudy}</p>
+              <h3 className="mt-2 text-2xl font-bold text-white">{project.title}</h3>
+            </div>
           </div>
         </div>
       </Link>

@@ -1,3 +1,8 @@
+import capstoneMentorshipImage from '../assets/images/Academic Capstone Project Mentorship.jpg'
+import javaFullStackProjectImage from '../assets/images/Java Full Stack Development Projects.jpg'
+import portfolioPlaceholderImage from '../assets/images/Portfolio-ready project placeholders.jpg'
+import enterpriseProjectImage from '../assets/images/enterpriseproject.jpg'
+
 export const navItems = [
   { label: 'Home', href: '/' },
   { label: 'About', href: '/about' },
@@ -136,14 +141,13 @@ export const projects = [
     liveLink: '#',
     githubLink: '#',
     featured: true,
+    coverImage: enterpriseProjectImage,
     screenshots: [
       {
         title: 'Enterprise service layer',
         caption: 'Backend services structured around Spring Boot APIs, data access, validation, and maintainability.',
-      },
-      {
-        title: 'Database support workflow',
-        caption: 'SQL query optimization and Oracle Database maintenance for application reliability.',
+        image: enterpriseProjectImage,
+        alt: 'Enterprise application development project screenshot',
       },
     ],
     metrics: [
@@ -175,14 +179,13 @@ export const projects = [
     liveLink: '#',
     githubLink: '#',
     featured: true,
+    coverImage: javaFullStackProjectImage,
     screenshots: [
       {
         title: 'Full stack architecture',
         caption: 'Application flow from frontend screens to REST APIs and database-backed records.',
-      },
-      {
-        title: 'Frontend integration',
-        caption: 'JavaScript, Thymeleaf, Bootstrap, and ReactJS growth applied to real application interfaces.',
+        image: javaFullStackProjectImage,
+        alt: 'Java full stack development project screenshot',
       },
     ],
     metrics: [
@@ -214,14 +217,13 @@ export const projects = [
     liveLink: '#',
     githubLink: '#',
     featured: true,
+    coverImage: capstoneMentorshipImage,
     screenshots: [
       {
         title: 'Project guidance model',
         caption: 'Structured student mentorship from requirements and architecture through implementation and testing.',
-      },
-      {
-        title: 'Capstone delivery support',
-        caption: 'Practical support for database design, deployment, documentation, and software engineering standards.',
+        image: capstoneMentorshipImage,
+        alt: 'Academic capstone project mentorship screenshot',
       },
     ],
     metrics: [
@@ -253,14 +255,13 @@ export const projects = [
     liveLink: '#',
     githubLink: '#',
     featured: false,
+    coverImage: portfolioPlaceholderImage,
     screenshots: [
       {
         title: 'Cloud foundations',
         caption: 'AWS, Oracle Cloud Infrastructure, and Azure fundamentals used to build broader platform awareness.',
-      },
-      {
-        title: 'DevOps practices',
-        caption: 'CI/CD concepts, shell scripting, Docker basics, and deployment support as part of modern delivery.',
+        image: portfolioPlaceholderImage,
+        alt: 'Cloud and DevOps learning project screenshot',
       },
     ],
     metrics: [
@@ -520,9 +521,9 @@ export const pageContent = {
     ],
     screenshots: {
       eyebrow: 'Project views',
-      title: 'Portfolio-ready project placeholders.',
+      title: 'Project screenshots and visual references.',
       description:
-        'Each project experience supports structured screenshot records, ready to replace with real application images or diagrams.',
+        'Each project experience uses local images from the portfolio assets folder for screenshot-style visual context.',
     },
     stack: {
       eyebrow: 'Stack and process',
