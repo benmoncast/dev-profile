@@ -55,7 +55,7 @@ export const home = {
     subtitle:
       'Enterprise Java development, REST APIs, database systems, cloud fundamentals, DevOps practices, and technical instruction.',
     rows: [
-      { label: 'Primary stack', value: 'Java Spring Boot' },
+      { label: 'Primary stack', value: 'Java Spring Boot / ReactJS' },
       { label: 'Database focus', value: 'MySQL and Oracle' },
       { label: 'Career direction', value: 'Full Stack / Cloud / DevOps' },
     ],
@@ -290,7 +290,7 @@ export const skillCategories = [
   {
     title: 'Frontend development',
     description: 'Web interface skills across traditional server-rendered views and expanding ReactJS expertise.',
-    skills: ['HTML5', 'CSS3', 'JavaScript', 'Bootstrap', 'Thymeleaf', 'ReactJS'],
+    skills: ['HTML5', 'CSS3', 'JavaScript', 'Bootstrap', 'TailwincCSS', 'ReactJS'],
   },
   {
     title: 'Database technologies',
@@ -469,8 +469,8 @@ export const uiLabels = {
   filter: 'Filter',
   screenshot: 'Screenshot',
   learningSignal: 'Professional training',
-  livePreview: 'Live preview',
-  github: 'GitHub',
+  livePreview: 'Live',
+  github: 'Code',
   backHome: 'Back home',
   backToProjects: 'Back to projects',
   discussSimilarBuild: 'Discuss a related opportunity',
